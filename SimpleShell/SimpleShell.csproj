@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Henrik Nielsen</Authors>
+    <Company>Henrik Nielsen</Company>
+    <Description>Provides a simplified interface for running shell commands using the async/await pattern.</Description>
+    <PackageProjectUrl>https://github.com/1hdn/SimpleShell</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/1hdn/SimpleShell</RepositoryUrl>
+    <PackageTags>shell process command script batch cli console terminal</PackageTags>
   </PropertyGroup>
 
 </Project>
