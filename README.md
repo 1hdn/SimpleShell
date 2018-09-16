@@ -18,3 +18,5 @@ The `Command.Run` method is best suited for simple shell commands like executing
 Each invocation of `Command.Run` starts a new process and returns when the process has exited. 
 
 If you need to interact with a script or program (like sending input based on output) this is not the right tool for the job. 
+
+SimpleShell is available as a [NuGet package](https://www.nuget.org/packages/SimpleShell/) for .NET Standard 2.0.
