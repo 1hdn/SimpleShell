@@ -8,6 +8,8 @@
     <PackageProjectUrl>https://github.com/1hdn/SimpleShell</PackageProjectUrl>
     <RepositoryUrl>https://github.com/1hdn/SimpleShell</RepositoryUrl>
     <PackageTags>shell process command script batch cli console terminal</PackageTags>
+    <Version>1.0.1</Version>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
 
 </Project>

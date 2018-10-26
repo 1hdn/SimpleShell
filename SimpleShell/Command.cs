@@ -71,7 +71,7 @@ namespace SimpleShell
                     int exitCode = process.ExitCode;
                     string stdOut = process.StandardOutput.ReadToEnd();
                     string stdErr = process.StandardError.ReadToEnd();
-                    CommandErrorType errorType = string.IsNullOrEmpty(stdErr) ? CommandErrorType.None : CommandErrorType.ExecutionError;
+                    CommandErrorType errorType = exitCode == 0 ? CommandErrorType.None : CommandErrorType.ExecutionError;
                     ReturnResult(new CommandResult
                     {
                         ErrorType = errorType,
